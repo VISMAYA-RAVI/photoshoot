@@ -1,0 +1,121 @@
+body {
+    font-family: 'Brush Script MT', cursive;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.logoo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: end; 
+    margin-bottom: -60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.book-your-shoot a {
+    text-decoration: none;
+    color: #e74444;
+    font-weight: bold;
+}
+
+.hero img {
+    align-items: center;
+    width: 1270px;
+    height:600px;
+    text-align: center;
+    margin-left:120px;
+    margin-top: 20px;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.intro .signature {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.highlight {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.highlight img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.highlight h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.highlight p {
+    font-size: 14px;
+    color: #777;
+}
+
+
+footer {
+    text-align: left;
+    padding: 10px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: 14px;
+    color: #777;
+}
